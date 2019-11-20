@@ -14,9 +14,6 @@ import java.util.List;
  */
 public class Robot {
 
-    /**
-     * @param args the command line arguments
-     */
     private String name;
     private boolean on;
     private int nbPiles;
