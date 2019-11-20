@@ -19,6 +19,7 @@ public class Robot {
     private int nbPiles;
     private List<Battery> piles;
     private BatteryType bt;
+    public static final int DEF_NB_BATTERY=4;
     
     public Robot(String s,int nb,BatteryType t) throws InvalidBatteryCapacityException, InvalidNbBatteryException{
         if(nb<=0){
